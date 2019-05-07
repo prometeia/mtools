@@ -28,3 +28,31 @@ pip-log.txt
 
 # Doc build files
 _build
+
+# Build artifacts
+channel
+branch
+buildnum
+build_trigger_number
+win-*/
+linux-*/
+htmlcov/
+coverage.xml
+
+# Sonar
+.scannerwork/
+
+# Editors: VSCode Idea
+.idea/
+.vscode/
+.vs/
+
+# Vagrant
+.vagrant/
+
+# mypy
+.mypy_cache/
+
+# AUTO
+version
+README.md
