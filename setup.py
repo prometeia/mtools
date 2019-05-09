@@ -68,6 +68,9 @@ METADATA.update(dict(
 if METADATA.get('conda_command_tests'):
     # Disabling for generic problem with mplotqueries
     METADATA['conda_command_tests'] = False
+if METADATA.get('conda_import_tests'):
+    # Disabling for generic problem with mplotqueries
+    METADATA['conda_import_tests'] = False
 
 
 if __name__ == '__main__':
