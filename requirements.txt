@@ -1,5 +1,5 @@
 python-dateutil==2.*
-matplotlib==1.*
+matplotlib
 numpy==1.*
 pymongo>=2.8
 psutil>=5.4
